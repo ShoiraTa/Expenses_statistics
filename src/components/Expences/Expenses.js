@@ -1,8 +1,8 @@
-import ExpenseItem from './ExpenseItem';
+import ExpenseItem from './ExpenseItem.js';
 import './Expenses.css';
-import Card from './Card';
+import Card from '../UI/Card.js';
 
-function Expenses() {
+const Expenses = () => {
   const expenses = [
     {
       expenseDate: new Date(2021, 2, 12),
@@ -44,6 +44,6 @@ function Expenses() {
      />
     </Card>
   );
-}
+};
 
 export default Expenses;
