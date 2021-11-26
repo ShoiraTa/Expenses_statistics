@@ -1,10 +1,12 @@
+import { useState } from 'react';
 import ExpenseItem from './ExpenseItem.js';
 import './Expenses.css';
 import Card from '../UI/Card.js';
+import NewExpense from '../NewExpense/NewExpense';
 
 const Expenses = () => {
-  const expenses = [
-    {
+  const [expenses, setExpenses] = useState(
+    [{
       expenseDate: new Date(2021, 2, 12),
       expensePrice: 268,
       expenseTitle: 'Car ensurance',
@@ -23,26 +25,30 @@ const Expenses = () => {
       expenseDate: new Date(2021, 2, 12),
       expensePrice: 8,
       expenseTitle: 'Toilet paper',
-    },
-  ];
+    }],
+  );
+
+  const addExpenseHandler = (expenseData) => {
+    const date = new Date(expenseData.expenseDate);
+    expenseData.expenseDate = date;
+    console.log(expenseData);
+    setExpenses([...expenses, expenseData]);
+  };
+
   return (
+    <>
+        <NewExpense onAddExpenses={addExpenseHandler} />
     <Card className= "expenses-container">
-      <ExpenseItem
-        expenseDate={expenses[0].expenseDate}
-        expensePrice={expenses[0].expensePrice}
-        expenseTitle={expenses[0].expenseTitle}
-     />
-     <ExpenseItem
-        expenseDate={expenses[1].expenseDate}
-        expensePrice={expenses[1].expensePrice}
-        expenseTitle={expenses[1].expenseTitle}
-     />
-     <ExpenseItem
-        expenseDate={expenses[2].expenseDate}
-        expensePrice={expenses[2].expensePrice}
-        expenseTitle={expenses[2].expenseTitle}
-     />
+      {expenses.map((item) => {
+        console.log(item);
+        return (<ExpenseItem expenseDate={item.expenseDate}
+        expensePrice={item.expensePrice}
+        expenseTitle={item.expenseTitle}/>);
+      })
+
+        }
     </Card>
+    </>
   );
 };
 
