@@ -1,0 +1,26 @@
+.filter-container{
+  display: flex;
+  justify-content: space-between;
+  background-color: #272627;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgb(0 0 0 / 25%);
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+#year{
+  border-radius: 12px;
+  padding: 0 50px;
+  font-size: 1.2rem;
+  background-color: #fff;
+}
+
+#year:focus{
+  border: none;
+}
