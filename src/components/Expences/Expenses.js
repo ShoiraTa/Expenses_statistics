@@ -4,17 +4,18 @@ import './Expenses.css';
 import Card from '../UI/Card.js';
 import NewExpense from '../NewExpense/NewExpense';
 import ExpensesFilter from './ExpensesFilter.js';
+import ExpensesChart from './ExpensesChart.js';
 
 const Expenses = () => {
   const [expenses, setExpenses] = useState(
     [{
-      expenseDate: new Date(2021, 2, 12),
+      expenseDate: new Date(2021, 1, 12),
       expensePrice: 268,
       expenseTitle: 'Car ensurance',
       id: 1,
     },
     {
-      expenseDate: new Date(2021, 2, 12),
+      expenseDate: new Date(2021, 3, 12),
       expensePrice: 110,
       expenseTitle: 'Dinner',
       id: 2,
@@ -26,8 +27,8 @@ const Expenses = () => {
       id: 3,
     },
     {
-      expenseDate: new Date(2021, 2, 12),
-      expensePrice: 8,
+      expenseDate: new Date(2021, 10, 12),
+      expensePrice: 80,
       expenseTitle: 'Toilet paper',
       id: 4,
     }],
@@ -39,7 +40,7 @@ const Expenses = () => {
     setExpenses([...expenses, expenseData]);
   };
 
-  const [filteredYear, setFilteredYear] = useState('2020');
+  const [filteredYear, setFilteredYear] = useState('2021');
 
   const filteredYearHandler = (setYear) => {
     setFilteredYear(setYear);
@@ -62,6 +63,7 @@ const Expenses = () => {
     />
     <ExpensesFilter selectedYear = {filteredYear}
      onChangeFilteredYear = {filteredYearHandler}/>
+     <ExpensesChart expenses = {fExpenses} />
     <Card className= "expenses-container">
     {expensesContent}
     </Card>
