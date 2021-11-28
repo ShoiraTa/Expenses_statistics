@@ -17,7 +17,7 @@ Single page app that adds expenses for given day and year, and displays statisti
 
 | Demo year has expenses | Demo year has no expenses |
 | ---------------------- | ------------------------- |
-| (./demo1.jpg)          | (./demo2.jpg)             |
+| ![image](./demo1.jpg)  | ![image](./demo2.jpg)     |
 
 ## Authors
 
