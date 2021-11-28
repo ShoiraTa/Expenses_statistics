@@ -37,8 +37,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://Expenses_tracker.github.io/my-app",
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
-  }
+  "homepage": "http://ShoiraTa/.github.io/Expenses_tracker"
+
 }
