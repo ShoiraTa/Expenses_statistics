@@ -5,18 +5,19 @@
 Single page app that adds expenses for given day and year, and displays statistics of expenditures
 
 ## Built With
+
 - React
 - Java Script
 - HTML
 - CSS
 
-## Deployment Link
-
-
-
 ## Website Demo
 
+[Demo-page](http://Expenses_tracker.github.io/my-app)
 
+| Demo year has expenses | Demo year has no expenses |
+| ---------------------- | ------------------------- |
+| (demo1.jpg)            | (demo2.jpg)               |
 
 ## Authors
 
@@ -26,8 +27,6 @@ Single page app that adds expenses for given day and year, and displays statisti
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/shoira-tashpulatova-bab4a7122/)
 
 ![Shoira's GitHub stats](https://github-readme-stats.vercel.app/api?username=shoirata&count_private=true&theme=dark&show_icons=true)
-
-
 
 ## Acknowledgments
 
