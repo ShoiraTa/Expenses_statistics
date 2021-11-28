@@ -13,7 +13,7 @@ Single page app that adds expenses for given day and year, and displays statisti
 
 ## Website Demo
 
-[Demo-page](http://ShoiraTa/.github.io/Expenses_tracker)
+[Demo-page](http://ShoiraTa.github.io/Expenses_tracker)
 
 | Demo year has expenses | Demo year has no expenses |
 | ---------------------- | ------------------------- |
