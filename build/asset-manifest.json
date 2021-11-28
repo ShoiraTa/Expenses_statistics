@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/.github.io/Expenses_tracker/static/css/main.907168dc.chunk.css",
-    "main.js": "/.github.io/Expenses_tracker/static/js/main.c5c127a9.chunk.js",
-    "main.js.map": "/.github.io/Expenses_tracker/static/js/main.c5c127a9.chunk.js.map",
-    "runtime-main.js": "/.github.io/Expenses_tracker/static/js/runtime-main.e6cf8d38.js",
-    "runtime-main.js.map": "/.github.io/Expenses_tracker/static/js/runtime-main.e6cf8d38.js.map",
-    "static/js/2.fd2023dd.chunk.js": "/.github.io/Expenses_tracker/static/js/2.fd2023dd.chunk.js",
-    "static/js/2.fd2023dd.chunk.js.map": "/.github.io/Expenses_tracker/static/js/2.fd2023dd.chunk.js.map",
-    "index.html": "/.github.io/Expenses_tracker/index.html",
-    "static/css/main.907168dc.chunk.css.map": "/.github.io/Expenses_tracker/static/css/main.907168dc.chunk.css.map",
-    "static/js/2.fd2023dd.chunk.js.LICENSE.txt": "/.github.io/Expenses_tracker/static/js/2.fd2023dd.chunk.js.LICENSE.txt"
+    "main.css": "/Expenses_tracker/static/css/main.907168dc.chunk.css",
+    "main.js": "/Expenses_tracker/static/js/main.c5c127a9.chunk.js",
+    "main.js.map": "/Expenses_tracker/static/js/main.c5c127a9.chunk.js.map",
+    "runtime-main.js": "/Expenses_tracker/static/js/runtime-main.0efed505.js",
+    "runtime-main.js.map": "/Expenses_tracker/static/js/runtime-main.0efed505.js.map",
+    "static/js/2.fd2023dd.chunk.js": "/Expenses_tracker/static/js/2.fd2023dd.chunk.js",
+    "static/js/2.fd2023dd.chunk.js.map": "/Expenses_tracker/static/js/2.fd2023dd.chunk.js.map",
+    "index.html": "/Expenses_tracker/index.html",
+    "static/css/main.907168dc.chunk.css.map": "/Expenses_tracker/static/css/main.907168dc.chunk.css.map",
+    "static/js/2.fd2023dd.chunk.js.LICENSE.txt": "/Expenses_tracker/static/js/2.fd2023dd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e6cf8d38.js",
+    "static/js/runtime-main.0efed505.js",
     "static/js/2.fd2023dd.chunk.js",
     "static/css/main.907168dc.chunk.css",
     "static/js/main.c5c127a9.chunk.js"
